@@ -1,1 +1,1 @@
-web: node movieapp/app.js
+web: movieapp && node app.js

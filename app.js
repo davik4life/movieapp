@@ -21,17 +21,17 @@ app.get("/movie", function(req, res){
             var searches = JSON.parse(body);
                 res.render("movie", {searches: searches});
         }else if(!response.statusCode == 503){
-            // If error recieved, explain what eror it is.
+            // If error recieved, explain what error it is.
             console.log("Movie not found");
             res.send(`Encountered the error: ${error}.`);
         }
         
     });
 });
-// const PORT = process.env.PORT || 3003 
 
-app.listen(3003, () {
-   console.log("Movie App Started!!! Listening on :" + PORT);
+
+app.listen(process.env.PORT || 4000, function () {
+    console.log('Your node js server is running');
 });
 
 // This was the setting for c9.io and perhaps AWS.
