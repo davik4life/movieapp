@@ -28,9 +28,9 @@ app.get("/movie", function(req, res){
         
     });
 });
-const PORT = process.env.PORT || 3003 
+// const PORT = process.env.PORT || 3003 
 
-app.listen(PORT, () {
+app.listen(3003, () {
    console.log("Movie App Started!!! Listening on :" + PORT);
 });
 
