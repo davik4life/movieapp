@@ -28,7 +28,17 @@ app.get("/movie", function(req, res){
         
     });
 });
+const PORT = process.env.PORT || 3003 
 
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("Movie App Started!!!"); 
+app.listen(PORT, () {
+   console.log("Movie App Started!!! Listening on :" + PORT);
 });
+
+// This was the setting for c9.io and perhaps AWS.
+
+//app.listen(process.env.PORT, process.env.IP, function(){
+//   console.log("Movie App Started!!!"); 
+//
+//}
+//)
+//;
