@@ -9,9 +9,9 @@
   "author": "Davik4life",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "request": "^2.87.0"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
   }
 }
