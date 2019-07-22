@@ -1,7 +1,6 @@
 {
   "name": "movieapp",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,16 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davik4life/movieapp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/davik4life/movieapp/issues"
+  },
+  "homepage": "https://github.com/davik4life/movieapp#readme",
+  "description": ""
 }

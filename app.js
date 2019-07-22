@@ -30,7 +30,7 @@ app.get("/movie", function(req, res){
 });
 
 
-app.listen(process.env.PORT || 4000, function () {
+app.listen(process.env.PORT || 8080, function () {
     console.log('Your node js server is running');
 });
 
