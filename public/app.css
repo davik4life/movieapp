@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+strong{
+    color: gold;
+    border-bottom-color: yellow;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+h2{
+    color: red;
+}
